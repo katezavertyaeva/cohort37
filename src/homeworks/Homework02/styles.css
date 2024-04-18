@@ -1,0 +1,17 @@
+.profile-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* 1 способ - дочерний селектор */
+/* .profile-cards-container > .profile-card-wrapper {
+  margin: 30px;
+} */
+
+/* 2 способ  - обертка для компонента */
+.profile-card-control {
+  margin: 50px;
+}
